@@ -1,7 +1,30 @@
+# Ignorar arquivos temporários de editores
+
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+*#
+.#*
+*.DS_Store
+
+# Arquivos de backup Scheme / Racket
+
 *.ss~
 *.ss#*
 .#*.ss
-
 *.scm~
 *.scm#*
 .#*.scm
+*.rkt~
+*.rkt#*
+.#*.rkt
+
+# Diretório de compilados do Racket
+
+compiled/
+
+# VS Code configs locais
+
+.vscode/
